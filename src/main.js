@@ -3,8 +3,7 @@
 // api.addClass('blue').addClass('purple') // 链式操作
 
 // // obj.fn(p) === obj.fn.call(obj, p), this 指向 obj
-
-jQuery(".test")
+$(".test")
   .find(".child")
   .addClass("red")
   .end()
